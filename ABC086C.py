@@ -17,6 +17,3 @@ for i in range(0, n):
     if ans == 'No':
         break
 print(ans)
-# 奇数偶数判定
-
-#
