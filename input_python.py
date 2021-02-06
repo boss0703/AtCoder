@@ -6,6 +6,8 @@ s = input().split()
 s = list(input().split())
 # 一行数値 123 234 3324
 nums = list(map(int, input().split()))
+# 数値複数個 各変数にセット
+n, x = map(int, input().split())
 # 複数行文字列
 # abc
 # def
