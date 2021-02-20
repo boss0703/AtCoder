@@ -2,11 +2,11 @@
 n = int(input())
 # 一行文字 s[] abc bcd def
 s = input().split()
-# 一行文字 一文字ずつ s[] a b c d e f
-s = list(input().split())
+# 一行文字 一文字ずつ s[] abcdef
+s = list(input())
 # 一行数値 123 234 3324
 nums = list(map(int, input().split()))
-# 数値複数個 各変数にセット
+# 数値複数個 各変数にセット n = 10, x = 20
 n, x = map(int, input().split())
 # 複数行文字列
 # abc
